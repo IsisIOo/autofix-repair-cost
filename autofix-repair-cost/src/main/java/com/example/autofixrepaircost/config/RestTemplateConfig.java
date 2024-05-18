@@ -1,4 +1,4 @@
-package com.example.autofixcar.config;
+package com.example.autofixrepaircost.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
