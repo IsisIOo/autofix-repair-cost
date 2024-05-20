@@ -18,18 +18,11 @@ public class Repair {
     @Column(unique = true, nullable = false)
     private Long id;
 
-    //----------PATENTE DEL VEHICULO----------------
-    private String patent; //patente de letras y numeros
-
     //------------FECHA DE LLEGADA AL TALLER----------------
     private String admissionDateDayName; //nombre del dia de llegada
     private int admissionDateDay; //fecha de llega al taller
     private int admissionDateMonth;
     private int admissionHour;   //hora de llegada
-
-
-    //ESTO SEGUN AHORA VA EN OTRO ARCHIVO
-    //private String repairType; //tipo de reparacion/es
 
 
     //-----------FECHAS DE SALIDA DADAS POR EL TALLER---------------
